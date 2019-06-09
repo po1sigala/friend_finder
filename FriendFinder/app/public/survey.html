@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--jumbotron with titel and intro-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Lets Get Social!</h1>
+          <p class="lead">Tired of dating apps and just want to make friend to do cool stuff with? We've got you!</p>
+        </div>
+      </div>
+    <!---->
+<!-- create account -->
+<form>
+    <div class="form-group">
+      <label for="inputName">Name</label>
+      <input type="email" class="form-control" id="name1" aria-describedby="nameHelp" placeholder="Enter your user name">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+<!-- in line ratings from 1 to five for our questionare-->
+<div class="questions">
+  <div class="row">
+    <div class="col-md-6">
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">How outgoing are you?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">Are you a movie Person?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">How Outdoorsy are you?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">How do you identify Politically?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 Very Liberal
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 Very Conservative
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">Do you enjoy a good debate?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">Do you enjoy social drinking?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">Is physical fitness a big part of your life?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios7" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios7" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios7" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">HOw much do you travel?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0"></h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios9" id="exampleRadios" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios9" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios9" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios9" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios9" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+        <div class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">How adventurous are you?</h5>
+              <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="exampleRadios10" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    1 not at all
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios10" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                  2
+                  </label>
+                </div>  
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios10" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios3">
+                    3 not sure/could go either way
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios10" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios4">
+                    4
+                  </label>
+                </div> 
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios10" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios5">
+                    5 extremely
+                  </label>
+                </div> 
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+      
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</html>
